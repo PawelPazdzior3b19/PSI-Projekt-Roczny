@@ -1,0 +1,280 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+body
+{   
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin:0;
+    box-sizing:border-box;
+}
+
+header
+{
+    margin:0;
+    width:100%;
+    box-sizing:border-box;
+    display:flex;
+}
+
+
+.logo 
+{
+width: 500px;
+padding: 10px;
+display: flex;
+
+}
+
+
+
+header img{
+    margin: 10px;
+    padding: 10px;
+    display:inline-flex;
+    justify-content:flex-start;
+    box-sizing:border-box;
+    
+  }
+
+  header nav{
+    width: 100%;
+    margin: 0;
+    display: inline-flex;
+    box-sizing: border-box;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    
+    
+  } 
+  header nav ul{
+    width:170%;
+    padding:10px;
+    margin:10;
+    display:block;
+    text-align:center;
+    
+  }
+  header ul li{
+     padding: 5px;
+     width:150px;
+     background:#23b98c;
+     list-style-type:none;
+     display:inline-block;
+     margin:10px;
+     border: 1px solid black;
+     border-radius: 3px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     box-shadow: 0px 2px 3px gray;
+     -moz-box-shadow: 0px 2px 3px gray;
+     -webkit-box-shadow: 0px 2px 3px gray;
+     text-decoration: underline;
+     
+
+     
+  }
+  header a{
+    text-decoration:none;
+    color:black;
+  }
+
+  header ul li:hover{
+    color: blue;
+     background: lime;
+    border: 1px solid black;
+  }
+
+
+  h1 {
+
+   text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-weight: 500;
+     font-family: monospace;
+  }
+
+  .ez{
+    border: 1px solid;
+    margin: 10px;
+    padding: 5px;
+    background-color: #23b98c;
+    
+}
+.ez2{
+    border: 1px solid;
+    margin: 10px;
+    padding: 5px;
+    background-color: #23b98c;
+
+}
+
+.ez:hover{
+  background: lime;
+
+
+}
+
+.ez2:hover{
+  background: lime;
+
+
+}
+.artykul1 {
+    flex-basis: 50%;
+  }
+
+.artykul2 {
+    flex-basis: 25%;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+footer p
+{
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.kontakt
+{
+    height: 675px;
+}
+
+.dane {
+padding: 100px;
+
+}
+
+.dane2 a
+{
+  text-decoration:underline ;
+  color:black;
+
+} 
+
+.artykul1 a {
+color: black;
+text-decoration: underline;
+}
+
+.artykul2 a {
+  color: black;
+  text-decoration: underline;
+  }
+
+.kontakt h2 {
+  padding: 20px;
+}
+
+.kontakt a {
+  color: black;
+text-decoration: underline;
+}
+
+.kontakt p {
+  padding: 20px;
+  text-align: justify;
+}
+
+.kontakt ul {
+  padding: 20px;
+}
+
+.kontakt li {
+margin: 10px;}
+
+.kontakt .link{
+  color: #23b98c;
+  text-decoration: none;
+}
+
+.kontakt audio{
+display: flex;
+padding: 20px;
+
+}
+
+.kontakt ol {
+  padding: 30px;
+}
+
+
+.kontakt .problem {
+width: 18%;
+float: right;
+border-radius: 30px;
+padding: 10px;
+
+
+}
+
+.kontakt .sentino {
+width: 18%;
+float: right;
+border-radius: 30px;
+padding: 10px;
+
+}
+
+.kontakt .sting {
+width: 19%;
+float: right;
+border-radius: 30px;
+padding: 10px;
+
+}
+
+.kontakt .nirvana {
+  width: 18%;
+  float: right;
+  border-radius: 30px;
+  padding: 10px;
+
+}
+
+.kontakt h2 
+{
+  font-family: monospace;
+}
+
+.kontakt .glowna {
+  font-family: monospace;
+}
+
+.kontakt .glowna1 {
+  font-family: monospace;
+  font-size: 25px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.kontakt .koncert {
+  margin-right: 100px;
+  border-radius: 70px;
+  width: 700px;
+  float: right;
+  
+}
+
+.kontakt .nuta1 {
+width: 50px;
+display: flex;
+
+}
+
+.kontakt .nuta2 {
+  width: 50px;
+  display: flex;
+}
