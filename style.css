@@ -331,6 +331,39 @@ input[type="text" i] {
     padding-left: 2px;
     height: 20px;
     font-size: 18px;
+  }
 
+  .kontakt .reg{
+    font-size: 70px;
+  }
 
+  input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #23b98c;
+    color: black;
+    padding: 4px 7px;
+    border-width: 1px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+    font-family: monospace;
+    font-size: 18px;
+    border-radius: 70px;
+  
+  
+  }
+
+  .kontakt .form-example {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+    justify-content: center;
   }
