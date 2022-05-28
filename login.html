@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+    <script>
+      var users = new Array("admin");
+var passwords = new Array("admin");
+function sprawdz_haslo(user, pass)
+{  
+  for(var i = 0; i < users.length; i++){
+    if((user == users[i]) && (pass == passwords[i]))
+      return true;
+  }
+  return false;
+}
+function check()
+{
+  var user = document.form1.user.value;
+  var pass = document.form1.pass.value;
+  if(!sprawdz_haslo(user, pass)){
+      alert('Niepoprawne hasło!');
+  }
+  else{
+    document.location.href = "index.html";
+    alert('Zalogowano Jako admin!');
+
+  }
+}  
+    </script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+        <a href="index.html"> <img class="logo" src="TrapNews.png" alt="Logo"> </a>
+        
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="kontakt.html">Contact</a></li>
+      
+        </nav>
+    </header>
+    <div class="kontakt">
+
+            <H2>Wprowadź nazwę użytkownika i hasło:</H2>
+
+            <FORM NAME = "form1">
+            
+            <TD>Użytkownik:</TD>
+            <TD>
+              <INPUT TYPE="text" NAME="user">
+            </TD>
+            </TR><TR>
+            <TD>Hasło:</TD>
+            <TD>
+              <INPUT TYPE="password" NAME="pass">
+            </TD>
+            </TR><TR>
+            <TD colspan="2" align="center">
+              <INPUT TYPE="button" VALUE="Wejdź" onClick="check();">
+            </TD>
+            </TR></TABLE>
+            </FORM>
+
+            <h2>
+                Nie masz konta? Zarejestruj się! 
+            </h2>
+           
+
+    </div>
+    <hr><br>
+    <footer>
+        <p>Paweł Paździor</p>
+        <p>pk.pazdzior@gmail.com</p>
+        <p>+48 663 122 404</p>
+    </footer>
+</body>
+</html>

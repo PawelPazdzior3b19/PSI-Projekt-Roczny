@@ -278,3 +278,59 @@ display: flex;
   width: 50px;
   display: flex;
 }
+
+.kontakt form {
+  padding: 20px;
+  font-size: 22px;
+  font-family: monospace;
+}
+
+.kontakt .button
+{
+  width: 100px;
+}
+
+input[type="button" i] {
+  appearance: auto;
+  user-select: none;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: #23b98c;
+  color: black;
+  padding: 4px 7px;
+  border-width: 1px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  font-family: monospace;
+  font-size: 18px;
+  border-radius: 70px;
+
+
+}
+
+input[type="text" i] {
+  padding: 5px 7px;
+  padding-top: 1px;
+  padding-right: 2px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  height: 20px;
+  font-size: 18px;
+
+
+}
+
+  input[type="password" i] {
+    padding: 5px 7px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    height: 20px;
+    font-size: 18px;
+
+
+  }
