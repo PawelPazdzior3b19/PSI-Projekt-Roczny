@@ -12,6 +12,11 @@ body
     box-sizing:border-box;
 }
 
+@keyframes mymove {
+  from {background-color: white;}
+  to {background-color: blue;}
+}
+
 header
 {
     margin:0;
@@ -26,10 +31,14 @@ header
 width: 500px;
 padding: 10px;
 display: flex;
+transition: ease-out 0.3s;
 
 }
 
-
+.logo:hover
+{
+  width: 550px;
+}
 
 header img{
     margin: 10px;
@@ -75,7 +84,10 @@ header img{
      -moz-box-shadow: 0px 2px 3px gray;
      -webkit-box-shadow: 0px 2px 3px gray;
      text-decoration: underline;
-     
+     transition: ease-out 0.3s;
+     position: relative; 
+     z-index: 1;
+     box-shadow: inset 0 0 0 0 lime;
 
      
   }
@@ -86,8 +98,11 @@ header img{
 
   header ul li:hover{
     color: blue;
-     background: lime;
+    background: lime;
     border: 1px solid black;
+    width: 200px;
+    box-shadow: inset 300px 0 0 0 lime;
+   
   }
 
 
@@ -105,25 +120,31 @@ header img{
     margin: 10px;
     padding: 5px;
     background-color: #23b98c;
-    
+    transition: ease-out 0.3s;
+     position: relative; 
+     z-index: 1;
+     box-shadow: inset 0 0 0 0 lime;
 }
 .ez2{
     border: 1px solid;
     margin: 10px;
     padding: 5px;
     background-color: #23b98c;
-
+    transition: ease-out 0.3s;
+    position: relative; 
+    z-index: 1;
+    box-shadow: inset 0 0 0 0 lime;
 }
 
 .ez:hover{
   background: lime;
-
+  box-shadow: inset 300px 0 0 0 lime;
 
 }
 
 .ez2:hover{
   background: lime;
-
+  box-shadow: inset 300px 0 0 0 lime;
 
 }
 .artykul1 {
@@ -265,8 +286,22 @@ padding: 10px;
   border-radius: 70px;
   width: 700px;
   float: right;
-  
+  transition: ease-out 0.3s;
+     position: relative; 
+     z-index: 1;
+     box-shadow: inset 0 0 0 0 lime;
 }
+
+.kontakt .koncert:hover {
+  margin-right: 100px;
+  border-radius: 70px;
+  width: 750px;
+  float: right;
+  box-shadow: 0px 4px 6px black;
+
+}
+
+
 
 .kontakt .nuta1 {
 width: 50px;
@@ -302,12 +337,19 @@ input[type="button" i] {
   padding: 4px 7px;
   border-width: 1px;
   border-style: outset;
-  border-color: buttonborder;
   border-image: initial;
   font-family: monospace;
   font-size: 18px;
   border-radius: 70px;
-
+  transition: ease-out 0.3s;
+  position: relative; 
+     z-index: 1;
+     box-shadow: inset 0 0 0 0 lime;
+     width: 75px;
+}
+input[type="button" i]:hover {
+width: 100px;
+box-shadow: inset 300px 0 0 0 lime;
 
 }
 
@@ -349,14 +391,23 @@ input[type="text" i] {
     padding: 4px 7px;
     border-width: 1px;
     border-style: outset;
-    border-color: buttonborder;
     border-image: initial;
     font-family: monospace;
     font-size: 18px;
     border-radius: 70px;
-  
+    transition: ease-out 0.3s;
+    position: relative; 
+       z-index: 1;
+       box-shadow: inset 0 0 0 0 lime;
+       width: 150px;
   
   }
+
+  input[type="submit" i]:hover {
+    width: 200px;
+    box-shadow: inset 300px 0 0 0 lime;
+    
+    }
 
   .kontakt .form-example {
     padding: 10px;
