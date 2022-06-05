@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+    <title>Trap News</title>
     <script>
       var users = new Array("admin");
 var passwords = new Array("admin");
@@ -33,7 +33,9 @@ function check()
     </script>
 </head>
 <body>
-    
+  <video autoplay muted loop id="myVideo">
+    <source src="concert.mp4" type="video/mp4">
+  </video>
     <header>
         <nav>
         <a href="index.html"> <img class="logo" src="TrapNews.png" alt="Logo"> </a>
@@ -64,6 +66,7 @@ function check()
             </TD>
             </TR><TR>
             <TD colspan="2" align="center">
+              
               <INPUT TYPE="button" VALUE="Wejdź" onClick="check();">
             </TD>
             </TR></TABLE>
